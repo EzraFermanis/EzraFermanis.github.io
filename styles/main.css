@@ -1,21 +1,32 @@
 body {
 background: #fcf3de;
 font-family: arial;
+text-align: center;
 }
 
 h1 {font-size: xx-large;
-background-color: #ffd6af}
+background-color: #ffd6af;
+text-align: center;
+}
 
 h2 {font-size: x-large;
   background-color: white;
 font-family: sans-serif;
-padding-bottom: 30px}
+padding-bottom: 30px;
+text-align:center;
+}
 
 
-h3 {font-size: large;}
+h3 {font-size: large;
+  text-align: center;
+
+}
 
 .blogs {padding-bottom: 10px} 
 
+ul {list-style-type: none;
+
+}
 
 footer {
     background-color:black;
