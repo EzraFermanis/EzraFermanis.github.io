@@ -1,0 +1,27 @@
+h2 {
+  color: black;
+  display: flex;
+  padding-left: rem;
+}
+
+/* Border code just adds a visual red line around borders. Delete when not needed */ 
+
+* {
+  border: 1px solid red !important;
+}
+
+.container {
+background-color: #e9eaea;
+}
+
+.name {
+  color: black;
+}
+
+.topbanner {
+  display: flex;
+}
+
+.profilephoto {
+  width: 100%;
+}
