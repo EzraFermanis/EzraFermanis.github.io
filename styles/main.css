@@ -1,7 +1,5 @@
 h2 {
-  color: black;
   display: flex;
-  padding-left: rem;
 }
 
 /* Border code just adds a visual red line around borders. Delete when not needed */ 
@@ -18,10 +16,13 @@ background-color: #e9eaea;
   color: black;
 }
 
+/** Puts the contents side by side **/
 .topbanner {
   display: flex;
 }
 
-.profilephoto {
+/** class to make images circular **/
+.image-circle {
   width: 100%;
+  border-radius: 50%;
 }
