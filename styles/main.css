@@ -1,11 +1,27 @@
-h2 {
-  display: flex;
-}
-
-/* Border code just adds a visual red line around borders. Delete when not needed */ 
-
+/* Border code just adds a visual red line around borders. Delete when not needed 
 * {
   border: 1px solid red !important;
+}
+**/
+
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+/** h3 is used for the Nav Bar. Centered, middle and side by side **/
+h3 {
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 2rem;
+}
+
+/** h5 is used for the Blog Links on the Index page. Centered and middle. **/
+h5 {
+  color: ;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #fafafa !important;
 }
 
 .container {
@@ -19,10 +35,17 @@ background-color: #e9eaea;
 /** Puts the contents side by side **/
 .topbanner {
   display: flex;
+  background-color: #fafafa !important;
 }
 
-/** class to make images circular **/
+/** class to make image circular **/
 .image-circle {
   width: 100%;
-  border-radius: 50%;
+  border-radius: 50% !important;
+}
+
+
+/** removes the bullets from the listed blog links **/
+ul {
+  list-style: none;
 }
