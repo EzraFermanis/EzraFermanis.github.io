@@ -48,6 +48,14 @@ background-color: #fafafa;
   max-width: 960px
 }
 
+.images{
+  padding-left: 5rem; 
+  padding-right: 5rem;
+  padding bottom: 2rem;
+  max-width: 850px
+
+}
+
 /** class to make image circular **/
 .image-circle {
   width: 100%;
