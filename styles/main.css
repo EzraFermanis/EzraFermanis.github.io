@@ -1,4 +1,4 @@
-/* Border code just adds a visual red line around borders. Delete when not needed 
+/* Border code just adds a visual red line around borders. Comment out when not needed 
 * {
   border: 1px solid red !important;
 }
@@ -13,7 +13,13 @@ h3 {
   display: flex;
   text-align: center;
   vertical-align: middle;
-  padding-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #e9eaea;
+}
+
+h4 {
+  padding-left: 5rem;
 }
 
 /** h5 is used for the Blog Links on the Index page. Centered and middle. **/
@@ -25,7 +31,7 @@ h5 {
 }
 
 .container {
-background-color: #e9eaea;
+background-color: #fafafa;
 }
 
 .name {
@@ -38,14 +44,22 @@ background-color: #e9eaea;
   background-color: #fafafa !important;
 }
 
+.banner{
+  max-width: 960px
+}
+
 /** class to make image circular **/
 .image-circle {
   width: 100%;
   border-radius: 50% !important;
 }
 
-
 /** removes the bullets from the listed blog links **/
 ul {
   list-style: none;
+}
+
+p {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
