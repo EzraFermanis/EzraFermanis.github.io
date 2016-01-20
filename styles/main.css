@@ -30,6 +30,11 @@ h5 {
   background-color: #fafafa !important;
 }
 
+.row:hover {
+    color: black;
+}
+
+
 .container {
 background-color: #fafafa;
 }
