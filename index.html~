@@ -1,20 +1,49 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ezra's Blog</title>
+    <title></title>
     <meta charset="UTF-8">
-    <link href="styles/main.css" rel="stylesheet" type="text/css">
+
+    <!-- CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link href="styles/main.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
   </head>
-  
+
   <body>
-    <h1>Ezra's Blog of all Blogs</h1>
-    <h2>Welcome to my EDA blog 2015</h2>
-    <h3>Click on a blog entry below</h3>
-    
-    <a href="EzraFermanis.github.io/blog/c1-reflection-blog.html">Reflection</a>
-    <a href="EzraFermanis.github.io/blog/c1-time-and-habits-blog.html">Time and Habits</a>
-    
-    <!-- My first comment. -->
-  
+
+<!-- Top Head Banner Space which includes Name Titles, and Profile Image -->
+   <div class="container"> 
+    <div class="row">
+      <a href="index.html"><img class="nine columns" src="images/name-banner.jpg"></a>
+      <img class="three columns image-circle fill" src="images/profile.jpg">
+    </div>
+
+<!-- Navigation Bar below the Top Banner that contains 3 future links - About Me, Projects, and Contact -->    
+    <h3 class="row">
+      <div class="one-third column"><a href="pages/about-me.html">About Me</a></div>
+      <div class="one-third column"><a href="pages/projects.html">Projects</a></div>
+      <div class="one-third column"><a href="pages/contact.html">Contact Me</a></div>
+    </h3>
+
+<!-- Blog Links included in the Home page body, just below the Nav Bar -->    
+    <h5>
+    <ul>
+      <li><a href="blog/c4-daily-mindfulness.html">Daily Mindfulness</a></li>
+      <li><a href="blog/t4-javascript-basics.html">Javascript Basics</a></li>
+      <li><a href="blog/c3-meditation-process.html">Meditation Process</a></li>
+      <li><a href="blog/t3-design-to-web-blog.html">Design to Web</a></li>
+      <li><a href="blog/t2-html-css-dom-p2.html">HTML, CSS and DOM - Part 2</a></li>
+      <li><a href="blog/t2-html-css-dom-p1.html">HTML, CSS and DOM - Part 1</a></li>
+      <li><a href="blog/c2-emotional-intelligence.html">Emotional Intelligence</a></li>
+      <li><a href="blog/c1-time-and-habits-blog.html">Time and Habits</a></li>
+      <li><a href="blog/c1-reflection-blog.html">My Reflection</a></li>
+    </ul>
+    </h5>
+    <div class="twelve columns"></div>
+  </div>
   </body>
+
 </html>
