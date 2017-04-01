@@ -1,8 +1,12 @@
-/* Border code just adds a visual red line around borders. Comment out when not needed 
+/* Border code just adds a visual red line around borders. Comment out when not needed
 * {
   border: 1px solid red !important;
 }
 **/
+body {
+  background-image: url(assets/ez.jpg);
+  border: solid red;
+}
 
 h1 {
   font-family: 'Pacifico', cursive;
@@ -54,7 +58,7 @@ background-color: #fafafa;
 }
 
 .images{
-  padding-left: 5rem; 
+  padding-left: 5rem;
   padding-right: 5rem;
   padding bottom: 2rem;
   max-width: 850px
