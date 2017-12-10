@@ -7,38 +7,47 @@
   -o-background-size: cover;
   background-size: cover;
 }
+body {
+  max-height: 100%;
+}
 
-nav {
+.container1{
+  width:20%;
   height:auto;
-  max-width: 100%;
+  max-height: 50%;
+}
+
+.container2{
+  width:80%;
+  height:auto;
+  max-height: 100%;
 }
 
 /*CodePen Filled icon by Icons8 */
 .icons8-CodePen-Filled { /* Customizes CodePen Filled icon */
   width: 20%;
   height: 20%;
+  max-height: 100%
 }
 
 /*LinkedIn Filled icon by Icons8 */
 .icons8-LinkedIn-Filled { /* Customizes LinkedIn Filled icon */
-  width: 20%;
-  height: 20%;
 }
 
 /*GitHub Filled icon by Icons8 */
 .icons8-GitHub-Filled { /* Customizes GitHub Filled icon */
-  width: 20%;
-  height: 20%;
 }
 
 /*Facebook Filled icon by Icons8 */
 .icons8-Facebook-Filled { /* Customizes Facebook Filled icon */
-  width: 20%;
-  height: 20%;
 }
 
 .icon { /* Customizes all icons at once */
   display: block;
   padding-top: 5%;
   padding-left: 5%;
+  width:100%;
+  height:auto;
+  max-height: 100%;
+
 }
