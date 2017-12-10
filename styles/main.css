@@ -41,7 +41,4 @@
 }
 .icon { /* Customizes all icons at once */
   display: block;
-  text-indent: -9999px;
-  width: 100px;
-  height: 82px;
 }
