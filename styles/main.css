@@ -8,33 +8,37 @@
   background-size: cover;
 }
 
+nav {
+  height:auto;
+  max-width: 100%;
+}
 
 /*CodePen Filled icon by Icons8 */
 .icons8-CodePen-Filled { /* Customizes CodePen Filled icon */
-  width: 50px;
-  height: 50px;
+  width: 20%;
+  height: 20%;
 }
 
 /*LinkedIn Filled icon by Icons8 */
 .icons8-LinkedIn-Filled { /* Customizes LinkedIn Filled icon */
-  width: 50px;
-  height: 50px;
+  width: 20%;
+  height: 20%;
 }
 
 /*GitHub Filled icon by Icons8 */
 .icons8-GitHub-Filled { /* Customizes GitHub Filled icon */
-  width: 50px;
-  height: 50px;
+  width: 20%;
+  height: 20%;
 }
 
 /*Facebook Filled icon by Icons8 */
 .icons8-Facebook-Filled { /* Customizes Facebook Filled icon */
-  width: 50px;
-  height: 50px;
+  width: 20%;
+  height: 20%;
 }
 
 .icon { /* Customizes all icons at once */
   display: block;
-  padding-top: 20px;
-  padding-left: 20px;
+  padding-top: 5%;
+  padding-left: 5%;
 }
