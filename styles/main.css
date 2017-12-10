@@ -41,4 +41,6 @@
 }
 .icon { /* Customizes all icons at once */
   display: block;
+  padding-top: 20px;
+  padding-left: 20px;
 }
