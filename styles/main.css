@@ -1,53 +1,37 @@
 /* CSS Reset */
 
 * {
-  background: url('../assets/ez.jpg') no-repeat center center fixed; 
+  background: url('https://c1.staticflickr.com/4/3723/19803848503_bdcb5975ec_b.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+html, body {
+    height:100%;
+}
+
 body {
   max-height: 100%;
 }
+.main-container {
+  max-width: windo
+}
 
 .container1{
-  width:20%;
-  height:auto;
+  height: 100vh;
+  width: 100vw;
   max-height: 50%;
 }
 
-.container2{
-  width:80%;
-  height:auto;
-  max-height: 100%;
-}
-
 /*CodePen Filled icon by Icons8 */
-.icons8-CodePen-Filled { /* Customizes CodePen Filled icon */
-  width: 20%;
-  height: 20%;
-  max-height: 100%
-}
-
-/*LinkedIn Filled icon by Icons8 */
-.icons8-LinkedIn-Filled { /* Customizes LinkedIn Filled icon */
-}
-
-/*GitHub Filled icon by Icons8 */
-.icons8-GitHub-Filled { /* Customizes GitHub Filled icon */
-}
-
-/*Facebook Filled icon by Icons8 */
-.icons8-Facebook-Filled { /* Customizes Facebook Filled icon */
-}
 
 .icon { /* Customizes all icons at once */
   display: block;
   padding-top: 5%;
   padding-left: 5%;
-  width:100%;
+  width:100px;
   height:auto;
-  max-height: 100%;
+  max-width: 100px;
 
 }
